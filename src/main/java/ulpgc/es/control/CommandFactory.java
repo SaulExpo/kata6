@@ -1,4 +1,4 @@
-package ulpgc.es;
+package ulpgc.es.control;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

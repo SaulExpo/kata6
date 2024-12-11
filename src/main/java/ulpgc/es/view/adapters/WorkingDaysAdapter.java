@@ -1,7 +1,8 @@
-package ulpgc.es;
+package ulpgc.es.view.adapters;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import ulpgc.es.control.commands.WorkingDayCommand;
 
 import java.io.IOException;
 import java.time.LocalDate;

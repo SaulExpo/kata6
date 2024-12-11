@@ -1,4 +1,4 @@
-package ulpgc.es;
+package ulpgc.es.model;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

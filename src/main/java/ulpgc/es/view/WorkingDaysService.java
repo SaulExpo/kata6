@@ -1,8 +1,13 @@
-package ulpgc.es;
+package ulpgc.es.view;
 
 import io.javalin.Javalin;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import ulpgc.es.control.CommandFactory;
+import ulpgc.es.control.commands.WorkingDateCommand;
+import ulpgc.es.control.commands.WorkingDayCommand;
+import ulpgc.es.view.adapters.WorkingDateAdapter;
+import ulpgc.es.view.adapters.WorkingDaysAdapter;
 
 public class WorkingDaysService {
     private final int port;
